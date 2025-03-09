@@ -84,18 +84,20 @@ body{
 }
 .sale{
     position: relative;
+    flex-wrap: wrap;
 }
 .sale img{
     width: 100%;
-}
+}   
 .sale-image{
-    width: 35%;
+    width:40%;
     border: solid black 2px;
     background-color: white;
     padding: 2%;
     position: absolute;
     top: 10%;
     left: 5%;
+    
 }
 
 .recommended{
